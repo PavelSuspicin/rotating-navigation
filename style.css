@@ -27,16 +27,16 @@ body {
 
 .circle-container {
   position: fixed;
-  top: -100px;
   left: -100px;
+  top: -100px;
 }
 
 .circle {
   background-color: #ff7979;
+  position: relative;
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  position: relative;
   transition: transform 0.5s linear;
 }
 
@@ -51,9 +51,9 @@ body {
   left: 50%;
   height: 100px;
   background: transparent;
-  border: 0;
-  font-style: 26px;
   color: #fff;
+  border: 0;
+  font-size: 26px;
 }
 
 .circle button:focus {
@@ -84,7 +84,6 @@ nav {
 
 nav ul {
   list-style-type: none;
-  padding-left: 30px;
 }
 
 nav ul li {
@@ -115,7 +114,7 @@ nav ul li + li + li {
 }
 
 .content {
-  max-width: 1000px;
+  min-width: 1000px;
   margin: 50px auto;
 }
 
